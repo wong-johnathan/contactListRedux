@@ -1,0 +1,20 @@
+.barBtn {
+  margin: 0 0.5rem;
+  color: white;
+  transition: all ease-in 0.2s;
+  cursor: pointer;
+}
+
+.barBtn:hover {
+  font-size: 1.3rem;
+}
+
+.ellipse {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 65%;
+  height:175%;
+  background-color:#ffffff12;
+  border-top-left-radius:100%;
+}

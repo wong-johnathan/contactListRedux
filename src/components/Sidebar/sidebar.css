@@ -1,0 +1,96 @@
+.sidebarWrapper {
+  min-width: 250px;
+  transition: all 0.2s;
+  min-height: 100vh;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebarContent {
+  width: 100%;
+  padding: 1rem 0.75rem;
+}
+
+.sidebarContent ul {
+  margin: 0 -0.75rem;
+}
+
+.sidebarContent .nav-item,
+.collapseGroup {
+  margin-top: 0.3rem;
+}
+
+.sidebarContent .nav-item {
+  padding: 0 0.75rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  transition: all ease-in 0.3s;
+}
+
+.collapseChildren {
+  margin-left: -0.75rem !important;
+}
+
+.collapseChildren .nav-item {
+  padding-left: 2.5rem;
+  margin-right: 1.5rem;
+}
+
+.collapseChildren .active.nav-item {
+  background-color: #3d5185;
+  position: relative;
+  border-top-right-radius: 1.875rem;
+  border-bottom-right-radius: 1.875rem;
+}
+
+.collapseChildren .active.nav-item::after {
+  content: " ";
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.active.nav-item {
+  background-color: #252525;
+}
+
+.active.nav-item a {
+  color: white !important;
+}
+
+.sidebarContent li:hover {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  transition: all ease-in 0.3s;
+  background: #252525;
+}
+
+.sidebarContent li,
+.sidebarContent a {
+  color: #909090;
+  font-size: 0.85rem;
+}
+
+.sidebarContent li:hover,
+.sidebarContent a:hover {
+  color: #ffffff;
+}
+
+.sidebarContent li a {
+  text-decoration: none;
+  flex: 1 1;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}

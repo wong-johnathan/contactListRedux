@@ -1,0 +1,19 @@
+[
+  {
+    "id": "contacts",
+    "type": "menu",
+    "text": "Contacts",
+    "children": [
+      {
+        "type": "item",
+        "text": "View All",
+        "link": "/"
+      },
+      {
+        "type": "item",
+        "text": "New Contact",
+        "link": "/new"
+      }
+    ]
+  }
+]

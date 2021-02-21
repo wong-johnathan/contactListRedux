@@ -1,0 +1,13 @@
+.backdrop {
+  transition: all 0.3s ease-in;
+  background-color: #000000;
+  opacity: 0.3;
+  position: absolute;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: 800;
+}
+.backdropClose {
+  transform: scale(-100%, -100%);
+  transition: all 0.3s ease-in;
+}

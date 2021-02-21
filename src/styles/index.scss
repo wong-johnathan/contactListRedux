@@ -14,3 +14,44 @@ body {
     background-color: $secondary;
   }
 }
+
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 1px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: $secondary;
+  }
+}
+
+.noFocus:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-none {
+  cursor: default;
+}
+
+table tr td {
+  vertical-align: middle !important;
+}
+
+table tr td.actionColumn button {
+  margin: 0.5rem 0.5rem 0.5rem 0;
+}
